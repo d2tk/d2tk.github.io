@@ -30,10 +30,10 @@ const AboutSection: React.FC = () => {
                     <span className="text-stone-400 dark:text-zinc-500 select-none">02</span>
                     <div>
                         <span className="text-accent-blue font-bold">const</span> stack = [<br/>
-                        &nbsp;&nbsp;<span className="text-accent-green">"Obsidian"</span><br/>,<br/>
-                        &nbsp;&nbsp;<span className="text-accent-green">"Python"</span><br/>,<br/>
-                        &nbsp;&nbsp;<span className="text-accent-green">"Arch Linux"</span>,<br/>
-                        &nbsp;&nbsp;<span className="text-accent-green">"Typescript"</span>,<br/>
+                        &nbsp;&nbsp;<span className="text-accent-green">"Obsidian",</span><br/>
+                        &nbsp;&nbsp;<span className="text-accent-green">"Python",</span><br/>
+                        &nbsp;&nbsp;<span className="text-accent-green">"Arch Linux",</span><br/>
+                        &nbsp;&nbsp;<span className="text-accent-green">"TypeScript"</span>,<br/>
                        
                         ];
                     </div>
