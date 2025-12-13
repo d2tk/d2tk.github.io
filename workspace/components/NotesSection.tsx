@@ -40,7 +40,7 @@ const NotesSection: React.FC = () => {
                 <h2 className="font-mono text-xl font-bold flex items-center gap-2">
                     <span className="text-primary">./</span>NOTES
                 </h2>
-                <span className="text-xs font-mono text-stone-500 dark:text-zinc-500">READING BUFFER</span>
+                <span className="text-xs font-mono text-stone-500 dark:text-zinc-500">CATEGORY</span>
             </div>
             <div className="space-y-2 font-mono text-sm">
                 {notes.map(note => (

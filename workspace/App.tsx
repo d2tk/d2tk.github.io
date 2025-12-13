@@ -3,6 +3,7 @@ import Sidebar from './components/Sidebar';
 import Scanline from './components/Scanline';
 import Header from './components/Header';
 import AboutSection from './components/AboutSection';
+import ArticlesSection from './components/ArticlesSection';
 import ProjectsSection from './components/ProjectsSection';
 import NotesSection from './components/NotesSection';
 import Footer from './components/Footer';
@@ -42,6 +43,7 @@ const App: React.FC = () => {
                     <AboutSection />
                     
                     <div className="lg:col-span-8 flex flex-col gap-16">
+                        <ArticlesSection />
                         <ProjectsSection />
                         <NotesSection />
                     </div>

@@ -11,7 +11,7 @@ const AboutSection: React.FC = () => {
                 <p className="text-sm font-mono text-stone-600 dark:text-zinc-400 mb-4">
                     SYSTEM STATUS: OPERATIONAL<br/>
                     MODE: EXPERIMENTAL<br/>
-                    LAST UPDATE: 2025-12-11
+                    LAST UPDATE: 2025-12-13
                 </p>
                 <p className="leading-relaxed">
                     D2TK Lab is a digital experimentation facility. We build systems, fragment code, and document the chaos of development. 
@@ -46,7 +46,7 @@ const AboutSection: React.FC = () => {
                         <span className="material-icons-outlined text-base">face</span> About TK
                     </button>
                     <div className="absolute bottom-full left-0 mb-3 w-48 sm:w-56 p-3 bg-stone-900 dark:bg-zinc-100 text-stone-100 dark:text-zinc-900 text-xs font-mono rounded-sm shadow-xl opacity-0 group-hover:opacity-100 transition-opacity duration-200 pointer-events-none z-50 border border-stone-700 dark:border-zinc-300">
-                        Endless learning journey: learning codes and exploring stocks & investments.
+                        Endless learning journey: learning codes and exploring investments.
                     </div>
                 </div>
 
