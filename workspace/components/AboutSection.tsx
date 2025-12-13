@@ -11,7 +11,7 @@ const AboutSection: React.FC = () => {
                 <p className="text-sm font-mono text-stone-600 dark:text-zinc-400 mb-4">
                     SYSTEM STATUS: OPERATIONAL<br/>
                     MODE: EXPERIMENTAL<br/>
-                    LAST UPDATE: 2023-10-27
+                    LAST UPDATE: 2025-12-11                    
                 </p>
                 <p className="leading-relaxed">
                     D2TK Lab is a digital experimentation facility. We build systems, fragment code, and document the chaos of development. 
@@ -30,15 +30,38 @@ const AboutSection: React.FC = () => {
                     <span className="text-stone-400 dark:text-zinc-500 select-none">02</span>
                     <div>
                         <span className="text-accent-blue font-bold">const</span> stack = [<br/>
-                        &nbsp;&nbsp;<span className="text-accent-green">"Typescript"</span>,<br/>
-                        &nbsp;&nbsp;<span className="text-accent-green">"Rust"</span>,<br/>
                         &nbsp;&nbsp;<span className="text-accent-green">"Obsidian"</span><br/>
+                        &nbsp;&nbsp;<span className="text-accent-green">"Python"</span><br/>
+                        &nbsp;&nbsp;<span className="text-accent-green">"Typescript"</span>,<br/>
+                        &nbsp;&nbsp;<span className="text-accent-green">"Rust"</span>,<br/>                        
                         ];
                     </div>
                 </div>
             </div>
 
-            <div className="grid grid-cols-2 gap-4">
+            <div className="grid grid-cols-3 gap-4">
+                <a
+                    href="#"
+                    title="Endless learning journey: Python, TypeScript, PostgreSQL, Vue3, Rust, and exploring stocks & investments."
+                    className="relative group flex items-center justify-center gap-2 p-3
+                            border border-stone-300 dark:border-zinc-700
+                            hover:bg-primary hover:text-black hover:border-primary
+                            transition-all rounded-sm font-mono text-sm uppercase"
+                >
+                    <span className="material-icons-outlined text-base">info</span>
+                    About TK
+
+                    <span
+                    className="absolute bottom-full left-1/2 -translate-x-1/2 mb-2
+                                px-2 py-1 text-xs text-white bg-gray-800 rounded
+                                opacity-0 group-hover:opacity-100 transition-opacity
+                                whitespace-nowrap"
+                    >
+                    Endless learning journey: Python, TypeScript, PostgreSQL, Vue3, Rust,
+                    and exploring stocks & investments.
+                    </span>
+                </a>
+
                 <a href="#" className="flex items-center justify-center gap-2 p-3 border border-stone-300 dark:border-zinc-700 hover:bg-primary hover:text-black hover:border-primary transition-all rounded-sm font-mono text-sm uppercase">
                     <span className="material-icons-outlined text-base">code</span> Github
                 </a>
