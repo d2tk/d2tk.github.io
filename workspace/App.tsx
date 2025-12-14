@@ -1,57 +1,41 @@
 import React, { useState, useEffect } from 'react';
-import Sidebar from './components/Sidebar';
-import Scanline from './components/Scanline';
-import Header from './components/Header';
-import AboutSection from './components/AboutSection';
-import ArticlesSection from './components/ArticlesSection';
-import ProjectsSection from './components/ProjectsSection';
-import NotesSection from './components/NotesSection';
-import Footer from './components/Footer';
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import HomePage from './pages/HomePage';
+import PostPage from './pages/PostPage';
+import ArchivesPage from './pages/ArchivesPage';
 
 const App: React.FC = () => {
-    const [isDark, setIsDark] = useState<boolean>(false);
-
-    useEffect(() => {
-        // Check system preference on mount
-        if (window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches) {
-            setIsDark(true);
+    // Theme toggle logic
+    const [isDark, setIsDark] = useState(() => {
+        if (typeof window !== 'undefined') {
+            return localStorage.getItem('theme') === 'dark' ||
+                (!localStorage.getItem('theme') && window.matchMedia('(prefers-color-scheme: dark)').matches);
         }
-    }, []);
+        return false;
+    });
 
     useEffect(() => {
-        const root = document.documentElement;
         if (isDark) {
-            root.classList.add('dark');
+            document.documentElement.classList.add('dark');
+            localStorage.setItem('theme', 'dark');
         } else {
-            root.classList.remove('dark');
+            document.documentElement.classList.remove('dark');
+            localStorage.setItem('theme', 'light');
         }
     }, [isDark]);
 
     const toggleTheme = () => {
-        setIsDark(prev => !prev);
+        setIsDark(!isDark);
     };
 
     return (
-        <>
-            <Sidebar />
-            <Scanline />
-            
-            <div className="pl-4 md:pl-8 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8 relative z-10">
-                <Header toggleTheme={toggleTheme} isDark={isDark} />
-                
-                <main className="grid grid-cols-1 lg:grid-cols-12 gap-12">
-                    <AboutSection />
-                    
-                    <div className="lg:col-span-8 flex flex-col gap-16">
-                        <ArticlesSection />
-                        <ProjectsSection />
-                        <NotesSection />
-                    </div>
-                </main>
-                
-                <Footer />
-            </div>
-        </>
+        <Router>
+            <Routes>
+                <Route path="/" element={<HomePage toggleTheme={toggleTheme} isDark={isDark} />} />
+                <Route path="/posts" element={<ArchivesPage toggleTheme={toggleTheme} isDark={isDark} />} />
+                <Route path="/posts/:slug" element={<PostPage toggleTheme={toggleTheme} isDark={isDark} />} />
+            </Routes>
+        </Router>
     );
 };
 
