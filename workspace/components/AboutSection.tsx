@@ -5,16 +5,16 @@ const AboutSection: React.FC = () => {
         <section id="about" className="lg:col-span-4 flex flex-col gap-8">
             <div className="bg-surface-light dark:bg-surface-dark p-6 rounded-sm border-l-4 border-primary shadow-tactical dark:shadow-tactical-dark">
                 <h2 className="font-mono font-bold text-lg mb-2 flex items-center gap-2">
-                    <span className="material-icons-outlined text-primary text-sm">warning_amber</span>
+                    <span className="material-icons-outlined text-green-500 text-sm">check_circle</span>
                     NOTICE
                 </h2>
                 <p className="text-sm font-mono text-stone-600 dark:text-zinc-400 mb-4">
-                    SYSTEM STATUS: OPERATIONAL<br/>
-                    MODE: EXPERIMENTAL<br/>
-                    LAST UPDATE: 2025-12-13
+                    SYSTEM STATUS: STABLE<br />
+                    MODE: PRODUCTION<br />
+                    LAST UPDATE: 2025-12-14
                 </p>
                 <p className="leading-relaxed">
-                    D2TK Lab is a digital experimentation facility. We build systems, fragment code, and document the chaos of development. 
+                    D2TK builds in fragments and documents development in chaos.
                 </p>
             </div>
 
@@ -22,19 +22,19 @@ const AboutSection: React.FC = () => {
                 <div className="flex items-start gap-4 p-4 border border-stone-300 dark:border-zinc-700 rounded-sm border-dashed">
                     <span className="text-stone-400 dark:text-zinc-500 select-none">01</span>
                     <div>
-                        <span className="text-accent-blue font-bold">def</span> <span className="text-primary">mission</span>():<br/>
+                        <span className="text-accent-blue font-bold">def</span> <span className="text-primary">mission</span>():<br />
                         &nbsp;&nbsp;return <span className="text-accent-green">"Build rugged tools."</span>
                     </div>
                 </div>
                 <div className="flex items-start gap-4 p-4 border border-stone-300 dark:border-zinc-700 rounded-sm border-dashed">
                     <span className="text-stone-400 dark:text-zinc-500 select-none">02</span>
                     <div>
-                        <span className="text-accent-blue font-bold">const</span> stack = [<br/>
-                        &nbsp;&nbsp;<span className="text-accent-green">"Obsidian",</span><br/>
-                        &nbsp;&nbsp;<span className="text-accent-green">"Python",</span><br/>
-                        &nbsp;&nbsp;<span className="text-accent-green">"Arch Linux",</span><br/>
-                        &nbsp;&nbsp;<span className="text-accent-green">"TypeScript"</span>,<br/>
-                       
+                        <span className="text-accent-blue font-bold">const</span> stack = [<br />
+                        &nbsp;&nbsp;<span className="text-accent-green">"Obsidian",</span><br />
+                        &nbsp;&nbsp;<span className="text-accent-green">"Python",</span><br />
+                        &nbsp;&nbsp;<span className="text-accent-green">"Arch Linux",</span><br />
+                        &nbsp;&nbsp;<span className="text-accent-green">"TypeScript"</span>,<br />
+
                         ];
                     </div>
                 </div>
