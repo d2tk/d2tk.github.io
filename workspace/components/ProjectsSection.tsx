@@ -5,7 +5,7 @@ import { Project } from '../types';
 const projects: Project[] = [
     {
         id: '1',
-        name: 'ARC_LDR',
+        name: 'temp1',
         description: 'Asset loader and resource management system for high-performance web applications.',
         tags: ['RUST', 'WASM'],
         status: 'active',
@@ -13,7 +13,7 @@ const projects: Project[] = [
     },
     {
         id: '2',
-        name: 'OBS_SYNC',
+        name: 'temp2',
         description: 'Bi-directional sync tool for local markdown notes to remote CMS.',
         tags: ['NODE', 'API'],
         status: 'maintenance',
@@ -21,7 +21,7 @@ const projects: Project[] = [
     },
     {
         id: '3',
-        name: 'GRID_SYS',
+        name: 'una1',
         description: 'Experimental CSS grid generator for brutalist layouts.',
         tags: ['CSS', 'JS'],
         status: 'experimental',
@@ -30,7 +30,7 @@ const projects: Project[] = [
     {
         id: '4',
         name: 'PROTO_X',
-        description: '[REDACTED] Neural interface prototype. Awaiting further clearance.',
+        description: '[REDACTED] Prototype. Awaiting further clearance.',
         tags: ['UNKNOWN'],
         status: 'unknown',
         statusColor: 'stone-400'

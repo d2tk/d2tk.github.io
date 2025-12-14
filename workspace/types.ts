@@ -8,15 +8,22 @@ export interface Project {
     link?: string;
 }
 
-export interface Note {
-    id: string;
-    date: string;
-    title: string;
-    tag: string;
-    tagColor: 'theory' | 'dev' | 'design' | 'rust';
-}
-
 export interface NavItem {
     label: string;
     href: string;
 }
+
+export interface Post {
+    slug: string;
+    title: string;
+    date: string;
+    type?: 'article' | 'note';
+    tags?: string[];
+    tag?: string; // Primary tag for display
+    tagColor?: string;
+    content: string;
+}
+
+// Keeping Note compatible with NoteItem props (it expects id, date, title, tag, tagColor)
+// We can just alias Post to Note if we map slug to id
+export type Note = Post & { id: string };

@@ -20,6 +20,7 @@ Every line of code you write is a liability. It has to be read, understood, test
 ## Walking Away
 
 Sometimes the best debugging tool is a walk outside.
+한국말 보이나요?
 
 > "A complex system that works is invariably found to have evolved from a simple system that worked." - Gall's Law
 
