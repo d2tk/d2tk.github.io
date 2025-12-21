@@ -1,6 +1,6 @@
 ---
 title: arch 리눅스 관련 기초 명령어들
-date: 2025-12-18
+date: 2025-12-08
 type: article
 tags:
   - dev

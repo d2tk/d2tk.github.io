@@ -1,8 +1,9 @@
 ---
-title: "Firefox 탭 무한증식 오류 해결법"
-date: "2025-12-11"
-type: "article"
-tags: ["dev"]
+title: Firefox 탭 무한증식 오류 해결법
+date: 2025-12-07
+type: article
+tags:
+  - dev
 ---
 
 # Firefox tab이 오류로 무한 증식!!!
