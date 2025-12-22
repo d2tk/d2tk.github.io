@@ -7,7 +7,6 @@ tags:
 ---
 
 리눅스에서 UEFI 모드로 부팅하기 위해  다음을 BIOS에서 설정햡니다 
-
 ```
 CSM : Disabled
 Above 4G Decoding : Disabled (optional)
@@ -16,7 +15,6 @@ Fast Boot : Disabled (UEFI 환경 정보의 완전한 전달 보장)
 ```
 
 참고로 에러 로그 보는 법 
-
 ```
 dmesg | grep -i "efi: Error"
 ```
