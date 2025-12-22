@@ -6,10 +6,19 @@ tags:
   - dev
 ---
 
-### 리눅스는 건드리지 않는다
+## 결론: 리눅스가 메인이면 윈도우 레지스트리 변경 Go~
 
-리눅스의 시간을 메인보드 시계에 맞추어 리눅스와 윈도우의 시간이 안 맞는 문제를 해결합니다.
-정확히 말하면 윈도우가 정신 못차리는 거지...
+리눅스를 메인으로 쓰시면 윈도우를 변경하시고 
+윈도우가 메인이면 리눅스를 변경하시면 됩니다
+각각의 상황에 따른 변경 방법을 아래에 적어 놓았습니다
+Arch에서 Seoul/Asia로 지역 설정 하셨으면 그냥 윈도우 레지스트리 변경하시면 됩니다
+
+### 리눅스가 표준 (서버 동기화)
+
+리눅스는 잘못이 없다
+이게 다 위도우..읍읍
+
+아래의 명령은 
 ```
 timedatectl set-local-rtc 1 --adjust-system-clock
 ```
@@ -32,7 +41,7 @@ win+r 로 'regedit' 실행
 다음 경로로 들어가서
 
 ```
-\HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\TimeZoneInformation
+컴퓨터\HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\TimeZoneInformation
 ```
 
 새로만들기
