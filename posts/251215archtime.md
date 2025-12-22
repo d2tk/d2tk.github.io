@@ -1,6 +1,6 @@
 ---
 title: 리눅스 기반 컴퓨터에서 멀티부팅시 윈도우 시간이 계속 안 맞는 경우
-date: 2025-12-13
+date: 2025-12-15
 type: article
 tags:
   - dev

@@ -1,6 +1,6 @@
 ---
 title: UEFI 부팅시 BIOS 설정
-date: 2025-12-13
+date: 2025-12-14
 type: article
 tags:
   - dev
