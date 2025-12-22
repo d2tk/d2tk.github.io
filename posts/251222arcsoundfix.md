@@ -2,6 +2,7 @@
 title: 아크레이더스 사운드 끊기는 문제 해결
 date: 2025-12-22
 type: article
+pinned: true
 tags:
   - dev
 ---
