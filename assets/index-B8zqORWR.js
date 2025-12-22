@@ -448,7 +448,7 @@ sudo pacman -Rns <패키지명>
 - '-s' 옵션은 의존성 패키지도 함께 제거
 
 ### 강제 명령어
-주의: 강제 제거 명령어는 다음과 같습니다
+주의: 강제 제거 명령은 시스템에 문제가 발생할 수 있습니다
 
 \`\`\`
 sudo pacman -Rdd <패키지명>
@@ -457,14 +457,14 @@ sudo pacman -Rdd <패키지명>
 - '-dd' 옵션은 의존성을 무시하고 강제로 제거합니다
 - 의존성에 문제가 생긴경우 강제로 제거할 때 사용합니다
 - 시스템에 문제가 발생할 수 있습니다`,wS=`---
-title: thunar 액션 설정 정리
+title: thunar 액션 설정 하는법
 date: 2025-12-18
 type: article
 tags:
   - dev
 ---
 
-## thunar에서 액션 설정하기
+## thunar에서 액션 설정 
 
 ### 기본설정파일 위치
 
@@ -474,10 +474,10 @@ thunar의 기본 설정 파일의 위치는 다음과 같습니다(arch 기준)
 ~/.config/Thunar/uca.xml
 \`\`\`
 
-### Custom Action 사용하기1 - open terminal here
+### Custom Action 사용하기 1 - open terminal here
 
 좌측 상단의 'edit' 메뉴에서 'Configure custom actions'를 선택합니다 + 버튼을 눌러 생성합니다
-필요한 내용들을 채워넣고 'thunar -q' 명령을 통해 파일을 종료하고 'thunar' 명령어로 다시 시작합니다 
+필요한 내용들을 채워넣고 'thunar -q' 명령을 통해 파일을 종료하고 다시 시작하면 설정이 반영됩니다 
 
 저는 터미널로 ghostty를 쓰고 있습니다
 마우스 오른쪽에 'Open terminal here'을 넣은 경우 아래와 같은 설정이 uca.xml에 추가됩니다
@@ -492,19 +492,20 @@ thunar의 기본 설정 파일의 위치는 다음과 같습니다(arch 기준)
 	<description>현재 위치에서 터미널을 엽니다 </description>
 	<range></range>
 	<patterns>*</patterns>
-	<startup-notify/>
 	</action>
 </action>
 
 \`\`\`
 
-### Custom Action 사용하기2 - 7zip을 이용하여 압축하기
+'--working-directory=%f' 는 제가 직접 넣어줬습니다
+
+### Custom Action 사용하기 2 - 7zip을 이용하여 압축하기
 
 저는 압축하기에서 ark와 7zip을 사용하고 있습니다
 7zip을 이용하여 폴더를 압축하는 기능을 우측 마우스 클릭 메뉴에 추가하고 싶은 경우
 위와 똑같은 방식으로 좌측 상단의 'edit' 메뉴를 통해 'Configure custom actions'를 선택하고 + 버튼을 눌러 생성합니다
 
-압축명령어에 따라 옵션들이 다르므로 잘 살펴보시고 적용하지 않으면 작동하지 않습니다
+압축명령어에 따라 옵션들이 다르므로 잘 살펴보시고 적용하시기 바랍니다
 
 \`\`\`XML
 <action>
@@ -548,7 +549,7 @@ Thunar의 컨텍스트 메뉴에서 표시되는 이름입니다
 별표 기호는 모든 파일을 의미합니다
 
 \`\`\`XML
-<directories></directories>
+</directories>
 \`\`\`
 
 디렉토리에 적용할 때만 사용합니다
@@ -568,8 +569,7 @@ Thunar의 컨텍스트 메뉴에서 표시되는 이름입니다
 	<description>위치에서 터미널을 엽니디 </description>
 	<range></range>
 	<patterns>*</patterns>
-	<startup-notify/>
-</action>
+	</action>
 <action>
 	<icon>application-x-compress</icon>
 	<name>Compress</name>
