@@ -1,10 +1,25 @@
 ---
-title: pacman으로 설치된 앱 리스트 만들기
+title: pacman 사용법 101
 date: 2025-12-19
 type: article
 tags:
   - dev
 ---
+
+### 패키지 업데이트
+
+
+```bash
+sudo pacman -Sy archlinux-keyring
+```
+
+
+```
+sudo pacman -Syu
+```
+
+
+
 
 ### pacman 명령어를 통해 리스트를 만들어 봅시다
 
@@ -18,3 +33,4 @@ tags:
 
    ```bash
    pacman -Qii | awk '/^Name/ {name=$3} /^Groups/ {print name, $3}' | sort > packages_with_groups.txt
+   
