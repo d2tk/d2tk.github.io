@@ -13,7 +13,7 @@ dolphin - KDE의 기본 파일 관리자로, 기능이 풍부하고 사용자 �
 thunar - dolphin보다 더 가볍고 심플
 yazi - 더 가볍고 더 심플
 lf - GUI 환경이 아닐 때 사용 주로 서버작업
-[https://github.com/gokcehan/lf](a terminal file manager written in Go)
+[a terminal file manager written in Go](https://github.com/gokcehan/lf)
 현재 thunar 사용 중
 
 #### terminal emulator
