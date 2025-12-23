@@ -1,12 +1,12 @@
 ---
-title: thunar 액션 설정 하는법
+title: thunar custom action 설정 하는법
 date: 2025-12-18
 type: article
 tags:
   - dev
 ---
 
-## thunar에서 액션 설정 
+## thunar를 커스터마이징 하기
 
 ### 기본설정파일 위치
 
@@ -55,7 +55,7 @@ thunar의 기본 설정 파일의 위치는 다음과 같습니다(arch 기준)
 	<name>Compress</name>
 	<submenu></submenu>
 	<unique-id>#고유ID위치-thunrar 자동생성</unique-id>
-	<command><command>bash -c 'name=$(basename %f); 7z a "${name}.7z" %f'</command>
+	<command>bash -c 'name=$(basename %f); 7z a "${name}.7z" %f'</command>
 	<description>폴더를 압축합니다</description>
 	<range></range>
 	<patterns>*</patterns>
@@ -95,7 +95,6 @@ Thunar의 컨텍스트 메뉴에서 표시되는 이름입니다
 ```
 
 디렉토리에 적용할 때만 사용합니다
-파일 압축은 폴더에 대해서만 작동하게 하고 싶어서 저런 명령이 들어갔습니다
 
 ### 최종 옵션 공유
 
@@ -103,23 +102,24 @@ Thunar의 컨텍스트 메뉴에서 표시되는 이름입니다
 <?xml version="1.0" encoding="UTF-8"?>
 <actions>
 <action>
-	<icon>utilities-terminal</icon>
-	<name>Open Terminal Here</name>
-	<submenu></submenu>
-	<unique-id>#고유ID위치-thunrar 자동생성</unique-id>
-	<command>ghostty --working-directory=%f</command>
-	<description>위치에서 터미널을 엽니디 </description>
-	<range></range>
-	<patterns>*</patterns>
-	</action>
-<action>
 	<icon>application-x-compress</icon>
 	<name>Compress</name>
 	<submenu></submenu>
-	<unique-id>#고유ID위치-thunrar 자동생성</unique-id>
-	<command><command>bash -c 'name=$(basename %f); 7z a "${name}.7z" %f'</command>
-	<description>폴더를 압축합니다</description>
+	<unique-id>1766429270191728-1</unique-id>
+	<command>bash -c 'name=$(basename %f); 7z a "${name}.7z" %f'</command>
+	<description>compress the folder</description>
 	<range></range>
+	<patterns>*</patterns>
+	<directories/>
+</action>
+<action>
+	<icon>utilities-x-terminal</icon>
+	<name>Open terminal here</name>
+	<submenu></submenu>
+	<unique-id>1766469575258298-1</unique-id>
+	<command>ghostty --working-directory=%f</command>
+	<description>open ghostty</description>
+	<range>*</range>
 	<patterns>*</patterns>
 	<directories/>
 </action>
