@@ -73,7 +73,6 @@ thunar - dolphin보다 더 가볍고 심플
 yazi - 더 가볍고 더 심플
 lf - GUI 환경이 아닐 때 사용 주로 서버작업
 [https://github.com/gokcehan/lf](a terminal file manager written in Go)
-
 현재 thunar 사용 중
 
 #### terminal emulator
@@ -84,12 +83,10 @@ ghostty - 현대적인 디자인과 높은 성능을 제공하는 터미널 에�
 
 #### web browser
 firefox - Mozilla Firefox
-
-그냥 linux에서는 이게 제일 만만합니다
+파이어폭스 
 
 #### media player
 mpv - 강력한 미디어 플레이어
-
 VLC media player 오래 쓰다가 mpv로 갈아 탔습니다
 
 #### system monitoring
