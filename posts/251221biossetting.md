@@ -27,7 +27,7 @@ OMMU는 가상화와 관련된 기능으로, 메모리 관리를 최적화합니
 #### -  SMT - Disabled
 SMT(Intel의 경우 Hyper-Threading)이란?
 Simultaneous Multi-Threading 으로 AMD CPU에서 사용하는 기술로, 물리 코어 하나당 2개의 논리 코어를 제공하여 성능을 향상시키는 기술입니다
-그러나 특정 작업에서는 성능 저하를 일으킬 수 있어 비활성화했습니다
+그러나 특정 작업에서는 성능 저하를 일으킬 수 있어 비활성화했습니다 (테스트중)
 
 #### - SVM -Disabled
 SVM은 가상화 기능을 활성화하는 설정입니다
