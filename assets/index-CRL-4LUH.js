@@ -893,10 +893,9 @@ OMMU는 가상화와 관련된 기능으로, 메모리 관리를 최적화합니
 #### - Above 4G Decoding - Disabled 
 마찬가지로 FPS를 더 얻기 보다는 안정적인 상황이 필요합니다
 
-#### -  SMT - Disabled
+#### -  SMT - Enabled
 SMT(Intel의 경우 Hyper-Threading)이란?
 Simultaneous Multi-Threading 으로 AMD CPU에서 사용하는 기술로, 물리 코어 하나당 2개의 논리 코어를 제공하여 성능을 향상시키는 기술입니다
-그러나 특정 작업에서는 성능 저하를 일으킬 수 있어 비활성화했습니다 (테스트중)
 
 #### - SVM -Disabled
 SVM은 가상화 기능을 활성화하는 설정입니다
@@ -967,15 +966,12 @@ tags:
 ---
 
 ## Ghostty 설정 
-
 Ghostty는 다음의 링크에서 다운로드 받을 수 있습니다
 [Ghostty Homepage](https://ghostty.org/)
 
 ### Ghostty 기본설정 단축키
-
 Ghostty는 다양한 단축키를 제공합니다
 아래는 기본 단축키 목록입니다
-
 \`\`\`sh
 super + ctrl  + shift + arrow_down    resize_split:down,10
 super + ctrl  + shift + arrow_left    resize_split:left,10
@@ -1050,14 +1046,12 @@ paste                                 paste_from_clipboard
 \`\`\`
 
 위의 내용은 다음의 명령어를 통해 확인할 수 있습니다
-
 \`\`\`sh
 ghostty +list-keybinds --default
 \`\`\`
 
 
 ### 그런데 내 손에 단축키가 익숙하지 않습니다
-
 단축키가 익숙하지 않다면, 환경설정 파일을 수정하여 원하는 단축키로 변경할 수 있습니다
 
 ### 환경설정 파일 위치 
@@ -1077,7 +1071,6 @@ foreground = E2852E
 \`\`\`
 
 ### 단축키(keybind)
-
 \`\`\`
 keybind=ctrl+q=close_window
 keybind=alt+f4=quit

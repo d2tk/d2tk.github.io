@@ -7,15 +7,12 @@ tags:
 ---
 
 ## Ghostty 설정 
-
 Ghostty는 다음의 링크에서 다운로드 받을 수 있습니다
 [Ghostty Homepage](https://ghostty.org/)
 
 ### Ghostty 기본설정 단축키
-
 Ghostty는 다양한 단축키를 제공합니다
 아래는 기본 단축키 목록입니다
-
 ```sh
 super + ctrl  + shift + arrow_down    resize_split:down,10
 super + ctrl  + shift + arrow_left    resize_split:left,10
@@ -90,14 +87,12 @@ paste                                 paste_from_clipboard
 ```
 
 위의 내용은 다음의 명령어를 통해 확인할 수 있습니다
-
 ```sh
 ghostty +list-keybinds --default
 ```
 
 
 ### 그런데 내 손에 단축키가 익숙하지 않습니다
-
 단축키가 익숙하지 않다면, 환경설정 파일을 수정하여 원하는 단축키로 변경할 수 있습니다
 
 ### 환경설정 파일 위치 
@@ -117,7 +112,6 @@ foreground = E2852E
 ```
 
 ### 단축키(keybind)
-
 ```
 keybind=ctrl+q=close_window
 keybind=alt+f4=quit
