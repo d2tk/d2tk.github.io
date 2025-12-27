@@ -1,6 +1,6 @@
 ---
-title: pacman 사용법 101
-date: 2025-12-19
+title: Arch에서 mangowc 설치해보자
+date: 2025-12-20
 type: article
 tags:
   - dev
