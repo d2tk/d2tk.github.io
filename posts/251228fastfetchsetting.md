@@ -1,5 +1,5 @@
 ---
-title: fastfetch 커스텀 로고로 세팅하기
+title: Fastfetch 커스텀 로고로 세팅하기
 date: 2025-12-28
 type: article
 tags:
