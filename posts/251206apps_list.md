@@ -33,6 +33,19 @@ VLC media player 오래 쓰다가 mpv로 갈아 탔습니다
 #### system monitoring
 btop - 리소스 사용량을 실시간으로 모니터링할 수 있는 시스템 모니터링 도구
 
+#### 개발도구
+Antigravity - google에서 만든 AI tool
+zed - 빠르고 가볍고 좀 더 단단한(Rust로 짠)
+
+#### Disk 용량 체크 
+ncdu
+
+#### 전자책 리더
+Foliate
+
+![[img260111.png]]
+
+
 #### text editor
 micro - 사용하기 쉬운 터미널 기반 텍스트 편집기로, 직관적인 인터페이스를 제공
 
