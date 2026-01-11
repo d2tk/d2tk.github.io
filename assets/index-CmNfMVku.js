@@ -72,7 +72,7 @@ tags:
 ](play)
 
 ## 조째즈 - 모르시나요(다비치)
-https://www.youtube.com/watch?v=FRxcsTxSI18&list=RDFRxcsTxSI18&start_radio=1
+[play](https://www.youtube.com/watch?v=FRxcsTxSI18&list=RDFRxcsTxSI18&start_radio=1)
 
 ## KCM - 버릇처럼 셋을 센다
 https://www.youtube.com/watch?v=X3FSotPWi7s&list=RDX3FSotPWi7s&start_radio=1
