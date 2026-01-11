@@ -67,12 +67,9 @@ tags:
 
 본 리스트는 예고없이 수정 될 수 있습니다
 
-## 정준일 - 어떻게 사랑이 그래요(이승환)
-[https://www.youtube.com/watch?v=fAAM6Pq1kjU&list=RDfAAM6Pq1kjU&start_radio=1
-](play)
+## [정준일 - 어떻게 사랑이 그래요(이승환)](https://www.youtube.com/watch?v=fAAM6Pq1kjU&list=RDfAAM6Pq1kjU&start_radio=1)
 
-## 조째즈 - 모르시나요(다비치)
-[play](https://www.youtube.com/watch?v=FRxcsTxSI18&list=RDFRxcsTxSI18&start_radio=1)
+## [조째즈 - 모르시나요(다비치)](https://www.youtube.com/watch?v=FRxcsTxSI18&list=RDFRxcsTxSI18&start_radio=1)
 
 ## KCM - 버릇처럼 셋을 센다
 https://www.youtube.com/watch?v=X3FSotPWi7s&list=RDX3FSotPWi7s&start_radio=1
