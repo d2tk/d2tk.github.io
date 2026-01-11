@@ -1770,7 +1770,7 @@ tags:
   - X80
 ---
 
-### 키보드 설정LED 
+### X80 키보드 LED 설정
 ![[aq.jpg]]
 [ 이미지출처: 뽀꾸(Pokookey)님 유튜브](https://www.youtube.com/watch?v=0xOi331SJjU)
 
