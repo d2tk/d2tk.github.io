@@ -1,6 +1,6 @@
 ---
 title: 노동요모음(YouTube)
-date: 2025-11-27
+date: 2025-10-27
 type: article
 tags:
   - list
