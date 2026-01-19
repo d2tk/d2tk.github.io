@@ -12,7 +12,7 @@ tags:
 
 ![[img260119_0.png]]
  
- #### 2.검색창에 privacy.sanitize.sanitizeOnShutdown 입력 → true로 설정
+#### 2.검색창에 privacy.sanitize.sanitizeOnShutdown 입력 → true로 설정
 #### 3.privacy.clearOnShutdown.cache 입력 → true로 설정
 #### 4.privacy.sanitize.timeSpan 값을 5로 설정 (단위: 일)
 
