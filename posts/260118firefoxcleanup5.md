@@ -10,7 +10,7 @@ tags:
 
 #### 1.주소창에 about:config 입력 (주의 사항에 대해서 확인 버튼 클릭)
 
-
+![[img260119_0.png]]
  
 #### 2.검색창에 privacy.sanitize.sanitizeOnShutdown 입력 → true로 설정
 #### 3.privacy.clearOnShutdown.cache 입력 → true로 설정

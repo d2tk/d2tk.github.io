@@ -9,8 +9,9 @@ tags:
 ## PulseAudio 명령어를 통한 장치 목록 확인
 PipeWire는 PulseAudio와 호환되도록 설계되어 pactl과 같은 PulseAudio 명령어 도구가 작동합니다
 
+![[img2601192.png]]
 
-### 모든 입력 장치와 출력장치의 목록과 상세정보를 확인하는 법
+### 모든 입력 장치와 출력 장치의 목록과 상세정보를 확인하는 법
 
 ```
 pactl list 
@@ -22,26 +23,26 @@ pactl list
 pactl list short
 ```
 
-### 출력장치 확인
+### 입력장치 확인
 
-출력장치 세부사항 출력
+입력장치 세부사항 출력
 ```
 pactl list sources
 ```
 
-출력장치 간단하게 출력
+입력장치 간단하게 출력
 ```
 pactl list sources short
 ```
 
 ### 입력장치 확인
 
-입력장치 세부사항 출력
+출력장치 세부사항 출력
 ```
 pactl list sinks
 ```
 
-입력장치 간단하게 출력
+출력장치 간단하게 출력
 ```
 pactl list sinks short
 ```
