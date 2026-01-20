@@ -1749,7 +1749,7 @@ title: test
 date: 2025-12-27
 type: article
 tags:
-  - trading
+  - "#trading"
 ---
 
 ## revise
