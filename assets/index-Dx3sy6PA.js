@@ -1819,8 +1819,8 @@ tags:
 
 
 
-`,PS=`ㅡ---
-title: Mr.Market
+`,PS=`---
+title: 미스터 마켓 이야기
 date: 2026-01-12
 type: article
 tags:
