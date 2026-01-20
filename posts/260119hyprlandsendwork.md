@@ -41,8 +41,10 @@ bind = $mainMod+Shift, 0, movetoworkspace, 10
 -movetoworkspacesilent
 
 앞서 상황에서는 창 이동후 포커스도 같이 이동했지만 현재 작업하는 창이 부족해서 그 옆의 창만 이후에 보기 위해 보내고 싶을 때가 있습니다 
-이러한 때 사용하는 방법이 'movetoworkspacesilent' 입니다 \
+이러한 때 사용하는 방법이 'movetoworkspacesilent' 입니다 
 
+아래와 같은 설정을 통해
+Super키 + Alt키 + 3 을 통해 워크스페이스 3으로 보낼 수 있습니다
 
 ```
 # Move focused window to a workspace silently

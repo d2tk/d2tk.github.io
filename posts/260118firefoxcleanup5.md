@@ -1,12 +1,12 @@
 ---
-title: Firefox 캐시 자동관리
+title: Firefox 캐시 5일마다 자동삭제
 date: 2026-01-18
 type: article
 tags:
   - dev
 ---
 
-### Firefox 캐시 자동 삭제 설정 (5일 주기)
+## Firefox 캐시 자동 삭제 설정 (5일 주기)
 
 #### 1.주소창에 about:config 입력 (주의 사항에 대해서 확인 버튼 클릭)
 
