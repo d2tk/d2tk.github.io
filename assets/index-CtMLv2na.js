@@ -1994,7 +1994,7 @@ tags:
 
 
 `,t2=`---
-title: Hyprland에서 포커스된 창을 워크스페이스로 보내는 방법
+title: Hyprland에서 포커스된 창을 새로운 워크스페이스로 보내는 방법
 date: 2026-01-19
 type: article
 tags:
