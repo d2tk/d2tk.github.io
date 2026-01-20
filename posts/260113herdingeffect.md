@@ -6,7 +6,7 @@ tags:
   - trading
 ---
 
-### 용어) Herding Effect 양떼효과
+### Herding Effect 양떼효과
 
 
 

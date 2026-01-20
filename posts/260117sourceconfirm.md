@@ -35,7 +35,7 @@ pactl list sources
 pactl list sources short
 ```
 
-### 입력장치 확인
+### 출력장치 확인
 
 출력장치 세부사항 출력
 ```
