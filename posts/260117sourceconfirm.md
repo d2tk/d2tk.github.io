@@ -1,5 +1,5 @@
 ---
-title: Linux에서 오디오 입력장치 출력장치 확인하기 
+title: Linux에서 오디오 입/출력장치 확인하기 
 date: 2026-01-17
 type: article
 tags:

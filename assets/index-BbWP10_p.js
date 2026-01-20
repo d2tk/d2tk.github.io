@@ -1924,7 +1924,7 @@ Herding Effect (양떼효과)
 모두가 알고 있는 지식이지만  
 행동까지 수반하는 것은 매우 어려운 일입니다
 `,e2=`---
-title: Linux에서 오디오 입력장치 출력장치 확인하기 
+title: Linux에서 오디오 입/출력장치 확인하기 
 date: 2026-01-17
 type: article
 tags:
