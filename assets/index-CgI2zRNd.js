@@ -1205,15 +1205,8 @@ sudo pacman -Rs $(pacman -Qdtq)
 \`\`\`
 
 ### 결론
-Arch Linux 유지의 핵심은 단 하나입니다
 
-정기적으로 \`sudo pacman -Syu\` 실행하기
-
-- 부분 업데이트 금지
-- 고아 패키지 정리
-- 대규모 업데이트 후 재부팅
-
-이 원칙만 지켜도 안정적인 Arch 시스템을 유지할 수 있습니다`,GS=`---
+정기적으로 \`sudo pacman -Syu\` 실행을 자주 합시다`,GS=`---
 title: 바이오스 세팅 (arch/UEFI/Limine)
 date: 2025-12-21
 type: article
