@@ -2032,8 +2032,8 @@ tags:
 - 과거 데이터에 의존하지 않기
 - 리스크 관리: 변곡점을 100%예측하는 것은 어렵기 때문에 리스크를 관리합니다
 - 심리적 준비: 착시 현상을 인식하고 투자를 계획합니다`,i2=`---
-title: test
-date: 2026-01-20
+title: nigx1
+date: 2026-03-15
 type: article
 tags:
   - dev
@@ -2041,7 +2041,7 @@ tags:
 
 ### 테스트를 위한 변경
 
-`;var wu={exports:{}},un={},Hi={},kl={},c0;function Ii(){if(c0)return kl;c0=1;function t(h){return typeof h>"u"||h===null}function r(h){return typeof h=="object"&&h!==null}function a(h){return Array.isArray(h)?h:t(h)?[]:[h]}function u(h,p){var m,d,y,v;if(p)for(v=Object.keys(p),m=0,d=v.length;m<d;m+=1)y=v[m],h[y]=p[y];return h}function c(h,p){var m="",d;for(d=0;d<p;d+=1)m+=h;return m}function s(h){return h===0&&Number.NEGATIVE_INFINITY===1/h}return kl.isNothing=t,kl.isObject=r,kl.toArray=a,kl.repeat=c,kl.isNegativeZero=s,kl.extend=u,kl}var gs,s0;function ua(){if(s0)return gs;s0=1;function t(r,a){Error.call(this),this.name="YAMLException",this.reason=r,this.mark=a,this.message=(this.reason||"(unknown reason)")+(this.mark?" "+this.mark.toString():""),Error.captureStackTrace?Error.captureStackTrace(this,this.constructor):this.stack=new Error().stack||""}return t.prototype=Object.create(Error.prototype),t.prototype.constructor=t,t.prototype.toString=function(a){var u=this.name+": ";return u+=this.reason||"(unknown reason)",!a&&this.mark&&(u+=" "+this.mark.toString()),u},gs=t,gs}var ys,f0;function r2(){if(f0)return ys;f0=1;var t=Ii();function r(a,u,c,s,h){this.name=a,this.buffer=u,this.position=c,this.line=s,this.column=h}return r.prototype.getSnippet=function(u,c){var s,h,p,m,d;if(!this.buffer)return null;for(u=u||4,c=c||75,s="",h=this.position;h>0&&`\0\r
+all my trust`;var wu={exports:{}},un={},Hi={},kl={},c0;function Ii(){if(c0)return kl;c0=1;function t(h){return typeof h>"u"||h===null}function r(h){return typeof h=="object"&&h!==null}function a(h){return Array.isArray(h)?h:t(h)?[]:[h]}function u(h,p){var m,d,y,v;if(p)for(v=Object.keys(p),m=0,d=v.length;m<d;m+=1)y=v[m],h[y]=p[y];return h}function c(h,p){var m="",d;for(d=0;d<p;d+=1)m+=h;return m}function s(h){return h===0&&Number.NEGATIVE_INFINITY===1/h}return kl.isNothing=t,kl.isObject=r,kl.toArray=a,kl.repeat=c,kl.isNegativeZero=s,kl.extend=u,kl}var gs,s0;function ua(){if(s0)return gs;s0=1;function t(r,a){Error.call(this),this.name="YAMLException",this.reason=r,this.mark=a,this.message=(this.reason||"(unknown reason)")+(this.mark?" "+this.mark.toString():""),Error.captureStackTrace?Error.captureStackTrace(this,this.constructor):this.stack=new Error().stack||""}return t.prototype=Object.create(Error.prototype),t.prototype.constructor=t,t.prototype.toString=function(a){var u=this.name+": ";return u+=this.reason||"(unknown reason)",!a&&this.mark&&(u+=" "+this.mark.toString()),u},gs=t,gs}var ys,f0;function r2(){if(f0)return ys;f0=1;var t=Ii();function r(a,u,c,s,h){this.name=a,this.buffer=u,this.position=c,this.line=s,this.column=h}return r.prototype.getSnippet=function(u,c){var s,h,p,m,d;if(!this.buffer)return null;for(u=u||4,c=c||75,s="",h=this.position;h>0&&`\0\r
 \u2028\u2029`.indexOf(this.buffer.charAt(h-1))===-1;)if(h-=1,this.position-h>c/2-1){s=" ... ",h+=5;break}for(p="",m=this.position;m<this.buffer.length&&`\0\r
 \u2028\u2029`.indexOf(this.buffer.charAt(m))===-1;)if(m+=1,m-this.position>c/2-1){p=" ... ",m-=5;break}return d=this.buffer.slice(h,m),t.repeat(" ",u)+s+d+p+`
 `+t.repeat(" ",u+this.position-h+s.length)+"^"},r.prototype.toString=function(u){var c,s="";return this.name&&(s+='in "'+this.name+'" '),s+="at line "+(this.line+1)+", column "+(this.column+1),u||(c=this.getSnippet(),c&&(s+=`:
