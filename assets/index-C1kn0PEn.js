@@ -2036,6 +2036,7 @@ title:
 date: 2026-01-20
 type: article
 tags:
+  - dev
 ---
 
 ### 테스트를 위한 변경
