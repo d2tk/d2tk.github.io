@@ -1042,6 +1042,17 @@ pacman -Qdtq
 sudo pacman -Rs $(pacman -Qdtq)
 \`\`\`
 
+또는 옵션을 -Rns을 하면 설정파일까지 제거합니다
+
+#### 6. 정체불명의 고아 패키지 확인
+
+\`\`\`
+pacman -Qi [패키지] | grep "Required By"
+
+ex)
+pacman -Qi electron39 | grep "Required By"
+\`\`\`
+
 ### 결론
 
 정기적으로 \`sudo pacman -Syu\` 실행을 자주 합시다`,US=`---
