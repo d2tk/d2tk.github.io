@@ -50,7 +50,7 @@ sudo pacman -Syu
    pacman -Qe | sort > installed_packages.txt
    ```
 - 사용자가 명시적으로 설치한 패키지 목록을 확인하고, 알파벳 순으로 정렬하여 `installed_packages.txt` 파일에 저장합니다.
-- 제가 추천하는 방식은 아래의 더 그룹별로 묶어서 분석하는 것보다 **AI에게 리스트를 주고 조언을 얻는 방법이 더 빠르고 효율적**이라 생각합니다
+- 아래의 그룹별로 묶어서 분석하는 것보다 위의 명령어를 통해 txt 파일을 만들고 그 결과를 **AI에게 던져 주고 조언을 얻는 방법이 더 효율적**이라 생각합니다
 
 ```
 pacman -Qii | awk '/^Name/ {name=$3} /^Groups/ {print name, $3}' | sort > packages_with_groups.txt
